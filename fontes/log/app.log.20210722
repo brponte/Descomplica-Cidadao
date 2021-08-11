@@ -1,0 +1,130 @@
+﻿2021-07-22 09:42:24,279 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-22 09:42:24,790 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-22 09:42:53,994 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210722094253ORGAOMUNICIPAL      
+2021-07-22 09:43:15,930 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/EspacoPublico/Index, Url = http://localhost:55783/EspacoPublico/Editar/1, FormValues =  }] Investimentos.MvcApplication - The view 'Editar' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EspacoPublico/Editar.aspx
+~/Views/EspacoPublico/Editar.ascx
+~/Views/Shared/Editar.aspx
+~/Views/Shared/Editar.ascx
+~/Views/EspacoPublico/Editar.cshtml
+~/Views/EspacoPublico/Editar.vbhtml
+~/Views/Shared/Editar.cshtml
+~/Views/Shared/Editar.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:Investimentos.Models.Data.Usuario
+id:20210722094253ORGAOMUNICIPAL      
+dtLogin:22/07/2021 09:42:53
+dtUltimaAtividade:22/07/2021 09:43:15
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Editar' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EspacoPublico/Editar.aspx
+~/Views/EspacoPublico/Editar.ascx
+~/Views/Shared/Editar.aspx
+~/Views/Shared/Editar.ascx
+~/Views/EspacoPublico/Editar.cshtml
+~/Views/EspacoPublico/Editar.vbhtml
+~/Views/Shared/Editar.cshtml
+~/Views/Shared/Editar.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-22 09:43:55,562 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/EspacoPublico/Index, Url = http://localhost:55783/EspacoPublico/Editar, FormValues =  }] Investimentos.MvcApplication - The view 'Editar' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EspacoPublico/Editar.aspx
+~/Views/EspacoPublico/Editar.ascx
+~/Views/Shared/Editar.aspx
+~/Views/Shared/Editar.ascx
+~/Views/EspacoPublico/Editar.cshtml
+~/Views/EspacoPublico/Editar.vbhtml
+~/Views/Shared/Editar.cshtml
+~/Views/Shared/Editar.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:Investimentos.Models.Data.Usuario
+id:20210722094253ORGAOMUNICIPAL      
+dtLogin:22/07/2021 09:42:53
+dtUltimaAtividade:22/07/2021 09:43:55
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Editar' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EspacoPublico/Editar.aspx
+~/Views/EspacoPublico/Editar.ascx
+~/Views/Shared/Editar.aspx
+~/Views/Shared/Editar.ascx
+~/Views/EspacoPublico/Editar.cshtml
+~/Views/EspacoPublico/Editar.vbhtml
+~/Views/Shared/Editar.cshtml
+~/Views/Shared/Editar.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-22 10:18:58,301 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-22 10:18:58,927 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-22 10:19:13,390 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210722101913ORGAOMUNICIPAL      
+2021-07-22 10:21:49,844 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-22 10:21:50,278 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-22 10:21:55,022 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210722102155ORGAOMUNICIPAL      
+2021-07-22 10:27:40,668 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-22 10:27:41,019 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-22 10:28:48,863 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-22 10:28:49,329 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-22 10:29:11,353 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210722102911ORGAOMUNICIPAL      
+2021-07-22 13:29:24,220 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-22 13:29:26,469 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-22 13:33:54,691 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210722133354ORGAOMUNICIPAL      
+2021-07-22 14:36:54,744 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210722143654CIDADAO             

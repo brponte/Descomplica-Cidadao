@@ -1,0 +1,266 @@
+﻿2021-07-23 17:49:51,762 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-23 17:49:52,346 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-23 17:51:12,244 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210723175112CIDADAO             
+2021-07-23 17:52:10,157 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Cidadao, Url = http://localhost:55783/Demanda?idUsuario=3, FormValues =  }] Investimentos.MvcApplication - The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Demanda/Index.aspx
+~/Views/Demanda/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Demanda/Index.cshtml
+~/Views/Demanda/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:Investimentos.Models.Data.Usuario
+id:20210723175112CIDADAO             
+dtLogin:23/07/2021 17:51:12
+dtUltimaAtividade:23/07/2021 17:51:31
+userHostAddress:::1
+perfil:3
+
+System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Demanda/Index.aspx
+~/Views/Demanda/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/Demanda/Index.cshtml
+~/Views/Demanda/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-23 18:11:02,084 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-23 18:11:02,321 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-23 18:11:18,007 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210723181118CIDADAO             
+2021-07-23 18:43:57,349 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-23 18:43:57,704 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-23 18:44:07,587 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210723184407CIDADAO             
+2021-07-23 18:44:29,860 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Demanda?idUsuario=3, Url = http://localhost:55783/Demanda/Editar, FormValues =  }] Investimentos.Models.DB.TipoServicoDB - SIS_SP_TIPOS_SERVICO_LER_TODOS( )
+System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'SIS_SP_TIPOS_SERVICO_LER_TODOS'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Investimentos.Models.DB.TipoServicoDB.lerTiposServico(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\Models\DB\TipoServicoDB.cs:linha 25
+ClientConnectionId:941be283-b93b-41af-9ceb-e9ea8c45ac65
+Error Number:2812,State:62,Class:16
+2021-07-23 18:44:29,955 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Demanda?idUsuario=3, Url = http://localhost:55783/Demanda/Editar, FormValues =  }] Investimentos.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Demanda/Error.aspx
+~/Views/Demanda/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/Demanda/Error.cshtml
+~/Views/Demanda/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:Investimentos.Models.Data.Usuario
+id:20210723184407CIDADAO             
+dtLogin:23/07/2021 18:44:07
+dtUltimaAtividade:23/07/2021 18:44:29
+userHostAddress:::1
+perfil:3
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Demanda/Error.aspx
+~/Views/Demanda/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/Demanda/Error.cshtml
+~/Views/Demanda/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-23 18:44:43,381 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Demanda?idUsuario=3, Url = http://localhost:55783/Demanda/Editar, FormValues =  }] Investimentos.Models.DB.TipoServicoDB - SIS_SP_TIPOS_SERVICO_LER_TODOS( )
+System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'SIS_SP_TIPOS_SERVICO_LER_TODOS'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Investimentos.Models.DB.TipoServicoDB.lerTiposServico(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\Models\DB\TipoServicoDB.cs:linha 25
+ClientConnectionId:941be283-b93b-41af-9ceb-e9ea8c45ac65
+Error Number:2812,State:62,Class:16
+2021-07-23 18:44:43,386 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Demanda?idUsuario=3, Url = http://localhost:55783/Demanda/Editar, FormValues =  }] Investimentos.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Demanda/Error.aspx
+~/Views/Demanda/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/Demanda/Error.cshtml
+~/Views/Demanda/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:Investimentos.Models.Data.Usuario
+id:20210723184407CIDADAO             
+dtLogin:23/07/2021 18:44:07
+dtUltimaAtividade:23/07/2021 18:44:43
+userHostAddress:::1
+perfil:3
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Demanda/Error.aspx
+~/Views/Demanda/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/Demanda/Error.cshtml
+~/Views/Demanda/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-23 18:47:29,751 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-23 18:47:29,978 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-23 18:47:36,357 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210723184736CIDADAO             
+2021-07-23 18:48:51,594 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-23 18:48:51,745 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-23 18:49:01,307 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210723184901CIDADAO             
+2021-07-23 18:55:44,292 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Demanda/Editar, Url = http://localhost:55783/Demanda, FormValues =  }] Investimentos.MvcApplication - The parameters dictionary contains a null entry for parameter 'idUsuario' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index(System.Nullable`1[System.Int32], Int32)' in 'Investimentos.Controllers.DemandaController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nome do parâmetro: parameters
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:Investimentos.Models.Data.Usuario
+id:20210723184901CIDADAO             
+dtLogin:23/07/2021 18:49:01
+dtUltimaAtividade:23/07/2021 18:55:44
+userHostAddress:::1
+perfil:3
+
+System.ArgumentException: The parameters dictionary contains a null entry for parameter 'idUsuario' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Index(System.Nullable`1[System.Int32], Int32)' in 'Investimentos.Controllers.DemandaController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nome do parâmetro: parameters
+   em System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   em System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,544 @@
+﻿2021-07-30 07:58:39,261 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 07:58:39,824 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 07:59:04,026 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210730075903CIDADAO             
+2021-07-30 07:59:11,646 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730075911ORGAOMUNICIPAL      
+2021-07-30 08:00:29,902 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=-1&IdImpostoUsuario=1&NrAno=&NrCpf= }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730075911ORGAOMUNICIPAL      
+dtLogin:30/07/2021 07:59:11
+dtUltimaAtividade:30/07/2021 08:00:29
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.DefaultModelBinder.SetProperty(ControllerContext controllerContext, ModelBindingContext bindingContext, PropertyDescriptor propertyDescriptor, Object value)
+   em System.Web.Mvc.DefaultModelBinder.BindProperty(ControllerContext controllerContext, ModelBindingContext bindingContext, PropertyDescriptor propertyDescriptor)
+   em System.Web.Mvc.DefaultModelBinder.BindProperties(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:07:38,774 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 08:07:38,933 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 08:07:52,373 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730080752ORGAOMUNICIPAL      
+2021-07-30 08:11:56,599 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 08:11:56,773 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 08:12:09,772 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730081209ORGAOMUNICIPAL      
+2021-07-30 08:18:16,647 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 08:18:16,802 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 08:21:42,675 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=05641416746 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+dtUltimaAtividade:30/07/2021 08:21:42
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:22:24,646 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730082224ORGAOMUNICIPAL      
+2021-07-30 08:28:12,322 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=05641416746 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730082224ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:22:24
+dtUltimaAtividade:30/07/2021 08:28:12
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:29:04,742 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=05641416746 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730082224ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:22:24
+dtUltimaAtividade:30/07/2021 08:29:04
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:30:20,347 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=05641416746 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730082224ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:22:24
+dtUltimaAtividade:30/07/2021 08:30:20
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:32:35,154 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=05641416746 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730082224ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:22:24
+dtUltimaAtividade:30/07/2021 08:32:35
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:34:52,704 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=5641416746 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730082224ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:22:24
+dtUltimaAtividade:30/07/2021 08:34:52
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:37:48,239 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 08:37:48,403 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 08:38:24,887 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730083824ORGAOMUNICIPAL      
+2021-07-30 08:38:38,449 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=56414167466 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730083824ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:38:24
+dtUltimaAtividade:30/07/2021 08:38:38
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:39:45,067 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=56414167466 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730083824ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:38:24
+dtUltimaAtividade:30/07/2021 08:39:24
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:40:19,869 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&NrCpf=56414167466 }] DescomplicaCidadao.MvcApplication - O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210730083824ORGAOMUNICIPAL      
+dtLogin:30/07/2021 08:38:24
+dtUltimaAtividade:30/07/2021 08:39:51
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: O tipo de recurso 'DescomplicaCidadao.Properties.Mensagens' não tem uma propriedade estática acessível denominada 'ERR_CPF_OBRIGATORIO'.
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetResourceAccessorByPropertyLookup()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.SetupResourceAccessor()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.get_ErrorMessageString()
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(String name)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(Object value, ValidationContext validationContext)
+   em System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   em System.Web.Mvc.DataAnnotationsModelValidator.Validate(Object container)
+   em System.Web.Mvc.ModelValidator.CompositeModelValidator.<Validate>d__1.MoveNext()
+   em System.Web.Mvc.DefaultModelBinder.OnModelUpdated(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexElementalModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Object model)
+   em System.Web.Mvc.DefaultModelBinder.BindComplexModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.DefaultModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   em System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.<BeginExecute>b__14(AsyncCallback asyncCallback, Object callbackState, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-30 08:41:54,859 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 08:41:54,928 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 08:42:06,219 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730084206ORGAOMUNICIPAL      
+2021-07-30 08:43:41,632 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 08:43:41,801 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 08:43:55,543 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730084355ORGAOMUNICIPAL      
+2021-07-30 09:01:31,418 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 09:01:31,500 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 09:06:24,183 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730090624ORGAOMUNICIPAL      
+2021-07-30 09:08:03,648 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 09:08:03,760 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 09:08:12,644 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730090812ORGAOMUNICIPAL      
+2021-07-30 09:09:39,501 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 09:09:39,590 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 09:09:52,710 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730090952ORGAOMUNICIPAL      
+2021-07-30 09:11:59,681 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 09:11:59,842 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 09:12:09,319 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730091209ORGAOMUNICIPAL      
+2021-07-30 09:12:32,236 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&Cpf=05641416746 }] DescomplicaCidadao.Models.DB.ImpostoUsuarioDB - SIS_SP_IMPOSTO_USUARIO_ALTERAR( idImpostoUsuario=1, idTipoImposto=1, nrAno=2021, nrCpf=05641416746)
+System.Data.SqlClient.SqlException (0x80131904): O procedimento ou a função 'SIS_SP_IMPOSTO_USUARIO_ALTERAR' espera o parâmetro '@Cpf', que não foi fornecido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em DescomplicaCidadao.Models.DB.ImpostoUsuarioDB.alterar(DBConexao db, ImpostoUsuarioForm form, Usuario usuario) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\ImpostoUsuarioDB.cs:linha 62
+ClientConnectionId:bb6c27cb-572d-40e2-8fc7-a7037ac333f6
+Error Number:201,State:4,Class:16
+2021-07-30 09:12:45,868 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/Editar?idImpostoUsuario=1, Url = http://localhost:55783/ImpostoUsuario/Salvar, FormValues = Id=1&IdTipoImposto=1&NrAno=2021&Cpf=05641416746 }] DescomplicaCidadao.Models.DB.ImpostoUsuarioDB - SIS_SP_IMPOSTO_USUARIO_ALTERAR( idImpostoUsuario=1, idTipoImposto=1, nrAno=2021, nrCpf=05641416746)
+System.Data.SqlClient.SqlException (0x80131904): O procedimento ou a função 'SIS_SP_IMPOSTO_USUARIO_ALTERAR' espera o parâmetro '@Cpf', que não foi fornecido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em DescomplicaCidadao.Models.DB.ImpostoUsuarioDB.alterar(DBConexao db, ImpostoUsuarioForm form, Usuario usuario) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\ImpostoUsuarioDB.cs:linha 62
+ClientConnectionId:bb6c27cb-572d-40e2-8fc7-a7037ac333f6
+Error Number:201,State:4,Class:16
+2021-07-30 09:14:26,477 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 09:14:26,605 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 09:14:39,130 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730091439ORGAOMUNICIPAL      
+2021-07-30 10:05:05,777 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-30 10:05:06,242 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-30 10:07:47,057 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210730100747ORGAOMUNICIPAL      
+2021-07-30 10:10:04,045 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210730101004CIDADAO             

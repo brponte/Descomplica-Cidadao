@@ -1,0 +1,212 @@
+﻿2021-08-02 21:24:18,723 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\'
+2021-08-02 21:24:19,644 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-08-02 21:25:28,656 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210802212528ORGAOMUNICIPAL      
+2021-08-02 21:26:28,918 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210802212628CIDADAO             
+2021-08-02 22:29:37,191 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\'
+2021-08-02 22:29:37,661 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-08-02 22:30:23,030 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210802223022CIDADAO             
+2021-08-02 22:35:58,076 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\'
+2021-08-02 22:35:58,548 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-08-02 22:36:23,931 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210802223623CIDADAO             
+2021-08-02 22:36:40,696 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/EmitirSegundaVia, Url = http://localhost:55783/ImpostoUsuario/GerarSegundaVia, FormValues = Ano=2021&Cpf=05641416746&IdTipoImposto=1 }] DescomplicaCidadao.MvcApplication - The parameters dictionary contains a null entry for parameter 'Cpf' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult GerarSegundaVia(Int32, Int32, Int32)' in 'DescomplicaCidadao.Controllers.ImpostoUsuarioController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nome do parâmetro: parameters
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210802223623CIDADAO             
+dtLogin:02/08/2021 22:36:23
+dtUltimaAtividade:02/08/2021 22:36:40
+userHostAddress:::1
+perfil:3
+
+System.ArgumentException: The parameters dictionary contains a null entry for parameter 'Cpf' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult GerarSegundaVia(Int32, Int32, Int32)' in 'DescomplicaCidadao.Controllers.ImpostoUsuarioController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nome do parâmetro: parameters
+   em System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   em System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-08-02 22:37:26,117 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/EmitirSegundaVia, Url = http://localhost:55783/ImpostoUsuario/GerarSegundaVia, FormValues = Ano=2021&Cpf=05641416746&IdTipoImposto=1 }] DescomplicaCidadao.MvcApplication - The parameters dictionary contains a null entry for parameter 'Cpf' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult GerarSegundaVia(Int32, Int32, Int32)' in 'DescomplicaCidadao.Controllers.ImpostoUsuarioController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nome do parâmetro: parameters
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210802223623CIDADAO             
+dtLogin:02/08/2021 22:36:23
+dtUltimaAtividade:02/08/2021 22:37:26
+userHostAddress:::1
+perfil:3
+
+System.ArgumentException: The parameters dictionary contains a null entry for parameter 'Cpf' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult GerarSegundaVia(Int32, Int32, Int32)' in 'DescomplicaCidadao.Controllers.ImpostoUsuarioController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Nome do parâmetro: parameters
+   em System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   em System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-08-02 22:40:16,548 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\'
+2021-08-02 22:40:16,704 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-08-02 22:40:34,681 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210802224034CIDADAO             
+2021-08-02 23:07:12,768 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\'
+2021-08-02 23:07:12,936 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-08-02 23:07:55,356 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210802230755CIDADAO             
+2021-08-02 23:11:10,599 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/EmitirSegundaVia, Url = http://localhost:55783/ImpostoUsuario/GerarSegundaVia, FormValues = Ano=2021&Cpf=05641416746&IdTipoImposto=1 }] DescomplicaCidadao.Models.DB.ImpostoUsuarioDB - SIS_SP_IMPOSTO_USUARIO_EMITIR_SEGUNDA_VIA( filtroAno=2021, filtroCpf=05641416746, filtroTipoImposto=1)
+System.Data.SqlClient.SqlException (0x80131904): Falha ao converter o varchar valor 'IPTU' para o tipo de dados int.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   em System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em DescomplicaCidadao.Models.DB.ImpostoUsuarioDB.getDataTableImprimirSegundaVia(DBConexao db, String nomeDataset, Int32 ano, String cpf, Int32 idTipoImposto) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\Models\DB\ImpostoUsuarioDB.cs:linha 187
+ClientConnectionId:51a1d014-9f88-4160-a92a-7c974a92fc7a
+Error Number:245,State:1,Class:16
+2021-08-02 23:12:53,417 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/ImpostoUsuario/EmitirSegundaVia, Url = http://localhost:55783/ImpostoUsuario/GerarSegundaVia, FormValues = Ano=2021&Cpf=05641416746&IdTipoImposto=1 }] DescomplicaCidadao.MvcApplication - Erro ao gerar o relatório 'Segunda Via - 2021.xlsx'
+Parâmetros:
+
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:CIDADAO             
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210802230755CIDADAO             
+dtLogin:02/08/2021 23:07:55
+dtUltimaAtividade:02/08/2021 23:11:41
+userHostAddress:::1
+perfil:3
+
+System.ApplicationException: Erro ao gerar o relatório 'Segunda Via - 2021.xlsx'
+Parâmetros:
+ ---> Microsoft.Reporting.WebForms.LocalProcessingException: Ocorreu um erro durante o processamento de relatórios local. ---> Microsoft.ReportingServices.ReportProcessing.ProcessingAbortedException: Erro no processamento de relatório. ---> Microsoft.ReportingServices.ReportProcessing.ReportProcessingException: Não é possível criar um leitor de dados para o conjunto de dados 'ImprimirRendimentoDataSet'.
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeLiveQueryExecutor.ExecuteReader(IJobContext jobContext, DataSourceErrorInspector errorInspector, String commandText)
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeLiveQueryExecutor.RunLiveQuery(List`1 queryParams, Object[] paramValues)
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeDataSet.RunEmbeddedQuery(List`1 queryParams, Object[] paramValues)
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeDataSet.RunDataSetQuery()
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeDataSet.InitializeAndRunLiveQuery()
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeAtomicDataSet.InitializeRowSourceAndProcessRows(ExecutedQuery existingQuery)
+   em Microsoft.ReportingServices.OnDemandProcessing.TablixProcessing.RuntimeOnDemandDataSet.InitializeRowSourceAndProcessRows(ExecutedQuery existingQuery)
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeAtomicDataSet.Process(ExecutedQuery existingQuery)
+   em Microsoft.ReportingServices.OnDemandProcessing.RuntimeAtomicDataSet.ProcessConcurrent(Object threadSet)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em Microsoft.ReportingServices.OnDemandProcessing.AbortHelper.ThrowIfAborted(CancelationTrigger cancelationTrigger, String uniqueName)
+   em Microsoft.ReportingServices.OnDemandProcessing.OnDemandProcessingContext.CheckAndThrowIfAborted()
+   em Microsoft.ReportingServices.OnDemandProcessing.RetrievalManager.FetchData()
+   em Microsoft.ReportingServices.OnDemandProcessing.RetrievalManager.PrefetchData(ReportInstance reportInstance, ParameterInfoCollection parameters, Boolean mergeTran)
+   em Microsoft.ReportingServices.OnDemandProcessing.Merge.FetchData(ReportInstance reportInstance, Boolean mergeTransaction)
+   em Microsoft.ReportingServices.ReportProcessing.Execution.ProcessReportOdpInitial.PreProcessSnapshot(OnDemandProcessingContext odpContext, Merge odpMerge, ReportInstance reportInstance, ReportSnapshot reportSnapshot)
+   em Microsoft.ReportingServices.ReportProcessing.Execution.ProcessReportOdp.Execute(OnDemandProcessingContext& odpContext)
+   em Microsoft.ReportingServices.ReportProcessing.Execution.RenderReportOdpInitial.ProcessReport(ProcessingErrorContext errorContext, ExecutionLogContext executionLogContext, UserProfileState& userProfileState)
+   em Microsoft.ReportingServices.ReportProcessing.Execution.RenderReport.Execute(IRenderingExtension newRenderer)
+   em Microsoft.ReportingServices.ReportProcessing.ReportProcessing.RenderReport(IRenderingExtension newRenderer, DateTime executionTimeStamp, ProcessingContext pc, RenderingContext rc, IChunkFactory yukonCompiledDefinition)
+   em Microsoft.Reporting.LocalService.CreateSnapshotAndRender(ReportProcessing repProc, IRenderingExtension renderer, ProcessingContext pc, RenderingContext rc, SubreportCallbackHandler subreportHandler, ParameterInfoCollection parameters, DatasourceCredentialsCollection credentials)
+   em Microsoft.Reporting.LocalService.Render(String format, String deviceInfo, String paginationMode, Boolean allowInternalRenderers, IEnumerable dataSources, CreateAndRegisterStream createStreamCallback)
+   em Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   em Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   em Microsoft.Reporting.WebForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   em Microsoft.Reporting.WebForms.Report.Render(String format, String deviceInfo)
+   em DescomplicaCidadao.Models.Negocio.GeradorRelatorios.gerar(String tipoRelatorio) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\Models\Negocio\GeradorRelatorios.cs:linha 95
+   em DescomplicaCidadao.Models.BaseCmdRelatorio.gerarRelatorio(String tipoRelatorio, String nomeRelatorio, String nomeRdlc, String nomeDataSet, DataTable dataTableRelat, List`1 arrParametros) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\Models\BaseCmdRelatorio.cs:linha 43
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em DescomplicaCidadao.Models.BaseCmdRelatorio.gerarRelatorio(String tipoRelatorio, String nomeRelatorio, String nomeRdlc, String nomeDataSet, DataTable dataTableRelat, List`1 arrParametros) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\Models\BaseCmdRelatorio.cs:linha 64
+   em DescomplicaCidadao.Models.Negocio.ImpostosUsuario.CmdImprimirSegundaVia.execCmd(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\Models\Negocio\ImpostosUsuario\CmdImprimirSegundaVia.cs:linha 46
+   em DescomplicaCidadao.Controllers.ImpostoUsuarioController.GerarSegundaVia(Int32 Ano, String Cpf, Int32 IdTipoImposto) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\DescomplicaCidadao\DescomplicaCidadao\Controllers\ImpostoUsuarioController.cs:linha 130
+   em lambda_method(Closure , ControllerBase , Object[] )
+   em System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   em System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

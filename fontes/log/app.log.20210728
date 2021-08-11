@@ -1,0 +1,504 @@
+﻿2021-07-28 14:54:44,242 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 14:54:44,750 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 14:55:23,736 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210728145523ORGAOMUNICIPAL      
+2021-07-28 14:55:29,510 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Index.aspx
+~/Views/TiposImposto/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/TiposImposto/Index.cshtml
+~/Views/TiposImposto/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728145523ORGAOMUNICIPAL      
+dtLogin:28/07/2021 14:55:23
+dtUltimaAtividade:28/07/2021 14:55:29
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Index.aspx
+~/Views/TiposImposto/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/TiposImposto/Index.cshtml
+~/Views/TiposImposto/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 14:55:37,600 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Index.aspx
+~/Views/TiposImposto/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/TiposImposto/Index.cshtml
+~/Views/TiposImposto/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728145523ORGAOMUNICIPAL      
+dtLogin:28/07/2021 14:55:23
+dtUltimaAtividade:28/07/2021 14:55:37
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Index.aspx
+~/Views/TiposImposto/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/TiposImposto/Index.cshtml
+~/Views/TiposImposto/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 14:58:02,583 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Index.aspx
+~/Views/TiposImposto/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/TiposImposto/Index.cshtml
+~/Views/TiposImposto/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728145523ORGAOMUNICIPAL      
+dtLogin:28/07/2021 14:55:23
+dtUltimaAtividade:28/07/2021 14:57:05
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Index.aspx
+~/Views/TiposImposto/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/TiposImposto/Index.cshtml
+~/Views/TiposImposto/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 14:58:51,965 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 14:58:52,046 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 15:00:40,387 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210728150040ORGAOMUNICIPAL      
+2021-07-28 15:08:13,819 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 15:08:14,065 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 15:12:40,414 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210728151240ORGAOMUNICIPAL      
+2021-07-28 15:27:41,182 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 15:27:41,251 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 15:28:46,488 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210728152846ORGAOMUNICIPAL      
+2021-07-28 15:41:14,345 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 15:41:14,443 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 15:41:33,988 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210728154133ORGAOMUNICIPAL      
+2021-07-28 15:43:21,482 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 15:43:21,662 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 15:43:40,771 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=ORGAOMUNICIPAL&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: ORGAOMUNICIPAL       - Bruno Ponte;idSessao: 20210728154340ORGAOMUNICIPAL      
+2021-07-28 15:45:05,972 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/TiposImposto/Editar, Url = http://localhost:55783/TiposImposto, FormValues =  }] DescomplicaCidadao.Models.DB.TipoImpostoDB - SIS_SP_TIPOS_IMPOSTO_BUSCAR_LISTA( nrLinhasPagina=10, nrPagina=1, nrTotalLinhas=1)
+System.IndexOutOfRangeException: TX_TIPO_IMPOSTO
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.makeTiposImposto(SqlDataReader dr) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 174
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.lerTiposImposto(DBConexao db, Paginacao paginacao, Int32& numTotalLinhas) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 142
+2021-07-28 15:45:06,031 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/TiposImposto/Editar, Url = http://localhost:55783/TiposImposto, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728154340ORGAOMUNICIPAL      
+dtLogin:28/07/2021 15:43:40
+dtUltimaAtividade:28/07/2021 15:45:05
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 15:45:56,556 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.Models.DB.TipoImpostoDB - SIS_SP_TIPOS_IMPOSTO_BUSCAR_LISTA( nrLinhasPagina=10, nrPagina=1, nrTotalLinhas=1)
+System.IndexOutOfRangeException: TX_TIPO_IMPOSTO
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.makeTiposImposto(SqlDataReader dr) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 174
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.lerTiposImposto(DBConexao db, Paginacao paginacao, Int32& numTotalLinhas) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 142
+2021-07-28 15:45:56,559 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728154340ORGAOMUNICIPAL      
+dtLogin:28/07/2021 15:43:40
+dtUltimaAtividade:28/07/2021 15:45:56
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 15:46:00,621 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.Models.DB.TipoImpostoDB - SIS_SP_TIPOS_IMPOSTO_BUSCAR_LISTA( nrLinhasPagina=10, nrPagina=1, nrTotalLinhas=1)
+System.IndexOutOfRangeException: TX_TIPO_IMPOSTO
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.makeTiposImposto(SqlDataReader dr) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 174
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.lerTiposImposto(DBConexao db, Paginacao paginacao, Int32& numTotalLinhas) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 142
+2021-07-28 15:46:00,626 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728154340ORGAOMUNICIPAL      
+dtLogin:28/07/2021 15:43:40
+dtUltimaAtividade:28/07/2021 15:46:00
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 15:46:07,385 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.Models.DB.TipoImpostoDB - SIS_SP_TIPOS_IMPOSTO_BUSCAR_LISTA( nrLinhasPagina=10, nrPagina=1, nrTotalLinhas=1)
+System.IndexOutOfRangeException: TX_TIPO_IMPOSTO
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.makeTiposImposto(SqlDataReader dr) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 174
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.lerTiposImposto(DBConexao db, Paginacao paginacao, Int32& numTotalLinhas) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 142
+2021-07-28 15:46:07,394 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728154340ORGAOMUNICIPAL      
+dtLogin:28/07/2021 15:43:40
+dtUltimaAtividade:28/07/2021 15:46:07
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 15:46:56,586 ERROR [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.Models.DB.TipoImpostoDB - SIS_SP_TIPOS_IMPOSTO_BUSCAR_LISTA( nrLinhasPagina=10, nrPagina=1, nrTotalLinhas=1)
+System.IndexOutOfRangeException: TX_TIPO_IMPOSTO
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.makeTiposImposto(SqlDataReader dr) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 174
+   em DescomplicaCidadao.Models.DB.TipoImpostoDB.lerTiposImposto(DBConexao db, Paginacao paginacao, Int32& numTotalLinhas) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\Models\DB\TipoImpostoDB.cs:linha 142
+2021-07-28 15:46:56,610 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/OrgaoMunicipal, Url = http://localhost:55783/TiposImposto/Index, FormValues =  }] DescomplicaCidadao.MvcApplication - The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+Redirecionando para: ~
+Session Values: 
+usuarioLogin:ORGAOMUNICIPAL      
+usuario:DescomplicaCidadao.Models.Data.Usuario
+id:20210728154340ORGAOMUNICIPAL      
+dtLogin:28/07/2021 15:43:40
+dtUltimaAtividade:28/07/2021 15:46:19
+userHostAddress:::1
+perfil:5
+
+System.InvalidOperationException: The view 'Error' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/TiposImposto/Error.aspx
+~/Views/TiposImposto/Error.ascx
+~/Views/Shared/Error.aspx
+~/Views/Shared/Error.ascx
+~/Views/TiposImposto/Error.cshtml
+~/Views/TiposImposto/Error.vbhtml
+~/Views/Shared/Error.cshtml
+~/Views/Shared/Error.vbhtml
+   em System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   em System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   em System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   em System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   em System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   em System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2021-07-28 16:50:24,526 INFO  [(null) - (null)] DescomplicaCidadao.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\DescomplicaCidadao\'
+2021-07-28 16:50:24,744 INFO  [(null) - (null)] DescomplicaCidadao.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-28 16:52:23,439 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] DescomplicaCidadao.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210728165223CIDADAO             

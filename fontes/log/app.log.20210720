@@ -1,0 +1,58 @@
+﻿2021-07-20 19:38:46,046 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 19:38:48,934 ERROR [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Erro ao ler a versão do Banco de Dados.
+System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'VBD_BUSCAR_VERSAO_BD'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Investimentos.Models.DB.VersaoBancoDadosDB.lerVersaoBancoDados(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\Models\DB\VersaoBancoDadosDB.cs:linha 23
+   em Investimentos.Models.Negocio.DbControleVersao.ehVersaoValida(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\Models\Negocio\DBControleVersao.cs:linha 30
+ClientConnectionId:52dd884d-bc53-42f2-a15e-e3d783a812e8
+Error Number:2812,State:62,Class:16
+2021-07-20 19:41:49,985 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 19:41:50,904 ERROR [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Erro ao ler a versão do Banco de Dados.
+System.Data.SqlClient.SqlException (0x80131904): Não foi possível encontrar o procedimento armazenado 'VBD_BUSCAR_VERSAO_BD'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Investimentos.Models.DB.VersaoBancoDadosDB.lerVersaoBancoDados(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\Models\DB\VersaoBancoDadosDB.cs:linha 23
+   em Investimentos.Models.Negocio.DbControleVersao.ehVersaoValida(DBConexao db) na D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\Models\Negocio\DBControleVersao.cs:linha 30
+ClientConnectionId:e5048a05-1e36-4fda-ae2e-9cab5c51db9a
+Error Number:2812,State:62,Class:16
+2021-07-20 19:52:54,483 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 19:52:55,267 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:10:57,548 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:10:58,299 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:12:31,692 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:12:32,277 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:14:34,871 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:14:35,486 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:16:13,415 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210720201600CIDADAO             
+2021-07-20 20:17:14,913 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:17:15,500 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:17:54,954 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210720201754CIDADAO             
+2021-07-20 20:28:36,557 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:28:37,480 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:38:27,346 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:38:27,973 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:38:57,350 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210720203857CIDADAO             
+2021-07-20 20:59:03,323 INFO  [(null) - (null)] Investimentos.MvcApplication - Application Started - Versão '1.0.0.0' - Pasta da App 'D:\Estudo\Pós - PUC\TCC - Sistema de Prestação de Serviços ao Cidadão\fontes\SisServ\Investimentos\'
+2021-07-20 20:59:03,988 INFO  [(null) - (null)] Investimentos.Models.Negocio.DbControleVersao - Versão do Banco de Dados: 1.0.0
+2021-07-20 20:59:37,211 INFO  [(null) - { UserHostAddress = ::1, UrlReferrer = http://localhost:55783/Login, Url = http://localhost:55783/Account/Login, FormValues = Usuario=CIDADAO&Senha=123 }] Investimentos.Controllers.AccountController - Login Usuário: CIDADAO              - Bruno Ponte;idSessao: 20210720205937CIDADAO             
